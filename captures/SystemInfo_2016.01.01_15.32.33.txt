@@ -1,0 +1,40 @@
+Applications Memory Usage (kB):
+Uptime: 6649149 Realtime: 18654567
+
+** MEMINFO in pid 24082 [me.davidrios.android.flash] **
+                   Pss  Private  Private  Swapped     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------
+  Native Heap     2905     2856       12     4008     8032     7857      174
+  Dalvik Heap     2021     1916       32     2464     8190     5642     2548
+ Dalvik Other      452      452        0        0                           
+        Stack      120      120        0        0                           
+    Other dev     3847     3824        4        0                           
+     .so mmap     2132      324     1424     1720                           
+    .apk mmap      282        0       52        0                           
+    .ttf mmap        0        0        0        0                           
+    .dex mmap      628        0      624        0                           
+    code mmap     1156        0      268        0                           
+   image mmap     1134      664       64      452                           
+   Other mmap        6        4        0        0                           
+     Graphics     9068     9068        0        0                           
+           GL     1560     1560        0        0                           
+      Unknown       32       32        0       64                           
+        TOTAL    25343    20820     2480     8708    16222    13499     2722
+ 
+ Objects
+               Views:       24         ViewRootImpl:        1
+         AppContexts:        3           Activities:        1
+              Assets:        5        AssetManagers:        5
+       Local Binders:       11        Proxy Binders:       17
+    Death Recipients:        0
+     OpenSSL Sockets:        0
+ 
+ SQL
+         MEMORY_USED:        0
+  PAGECACHE_OVERFLOW:        0          MALLOC_SIZE:        0
+ 
+ 
+ Asset Allocations
+    zip:/data/local/cust/overlay/framework/framework-res.apk:/resources.arsc: 2K
+    : 1K

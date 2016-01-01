@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Flash</string>
+    <string name="hasNoFlash">Su dispositivo no tiene flash</string>
+    <string name="errorMessage">Ha ocurrido un error:\ </string>
+    <string name="buttonToogleFlashOn">Activar flash</string>
+    <string name="buttonToogleFlashOff">Desactivar flash</string>
+    <string name="activatedLight">La luz ha sido activada</string>
+    <string name="deactivatedLight">La luz ha sido desactivada</string>
+</resources>
