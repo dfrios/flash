@@ -7,6 +7,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
@@ -14,14 +15,14 @@ public class MainActivity extends AppCompatActivity {
     private Camera camera;
     private Camera.Parameters parameters;
     private boolean turnedOn = false;
-    private Button button;
+    private ImageButton button;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        button = (Button) findViewById(R.id.buttonToogleFlash);
+        button = (ImageButton) findViewById(R.id.buttonToogleFlash);
     }
 
     /**
@@ -84,7 +85,7 @@ public class MainActivity extends AppCompatActivity {
             camera.setParameters(parameters);
             camera.startPreview();
             turnedOn = true;
-            button.setText(getString(R.string.buttonToogleFlashOff));
+            //button.setText(getString(R.string.buttonToogleFlashOff));
             popupMessage(getString(R.string.activatedLight));
         }
         else {
@@ -94,7 +95,7 @@ public class MainActivity extends AppCompatActivity {
             camera.setParameters(parameters);
             camera.stopPreview();
             turnedOn = false;
-            button.setText(getString(R.string.buttonToogleFlashOn));
+            //button.setText(getString(R.string.buttonToogleFlashOn));
             popupMessage(getString(R.string.deactivatedLight));
         }
     }

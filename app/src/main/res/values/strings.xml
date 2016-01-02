@@ -2,8 +2,8 @@
     <string name="app_name">Flash</string>
     <string name="hasNoFlash">Your device does not have flash</string>
     <string name="errorMessage">An error has occurred:\ </string>
-    <string name="buttonToogleFlashOn">Activate flash</string>
-    <string name="buttonToogleFlashOff">Deactivate flash</string>
+    <!--string name="buttonToogleFlashOn">Activate flash</string>
+    <string name="buttonToogleFlashOff">Deactivate flash</string-->
     <string name="activatedLight">Light has been activated</string>
     <string name="deactivatedLight">Light has been deactivated</string>
 </resources>
