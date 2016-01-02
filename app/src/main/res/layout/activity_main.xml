@@ -9,13 +9,23 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="me.davidrios.android.flash.MainActivity">
 
-    <Button
+    <!--Button
         android:id="@+id/buttonToogleFlash"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
         android:text="@string/buttonToogleFlashOn"
+        android:onClick="toogleFlash"/-->
+
+    <ImageButton
+        android:id="@+id/buttonToogleFlash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/buttonimage_definition"
+        android:background="@android:color/transparent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
         android:onClick="toogleFlash"/>
 
 </RelativeLayout>

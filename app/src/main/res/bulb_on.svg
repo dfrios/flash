@@ -11,47 +11,47 @@
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    id="svg3416"
    sodipodi:docname="bulb_on.svg"
-   viewBox="0 0 187.91092 197.84479"
+   viewBox="0 0 188 188"
    version="1.1"
    inkscape:version="0.91 r13725"
-   width="187.91092"
-   height="197.84479"
+   width="188"
+   height="188"
    inkscape:export-filename="bulb_on.png"
-   inkscape:export-xdpi="28.67"
-   inkscape:export-ydpi="28.67">
+   inkscape:export-xdpi="245.11"
+   inkscape:export-ydpi="245.11">
   <defs
      id="defs16" />
   <sodipodi:namedview
      id="base"
-     fit-margin-left="5"
-     inkscape:zoom="2.1283186"
+     fit-margin-left="0"
+     inkscape:zoom="4.165186"
      borderopacity="1.0"
      inkscape:current-layer="layer1"
-     inkscape:cx="171.01159"
-     inkscape:cy="98.922392"
+     inkscape:cx="49.581466"
+     inkscape:cy="93.922384"
      inkscape:grid-bbox="true"
      inkscape:window-maximized="1"
      showgrid="true"
-     fit-margin-right="5"
+     fit-margin-right="0"
      inkscape:document-units="px"
      bordercolor="#666666"
      inkscape:window-x="0"
      inkscape:window-y="25"
-     fit-margin-bottom="5"
+     fit-margin-bottom="0"
      inkscape:window-width="1366"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      pagecolor="#ffffff"
      inkscape:window-height="706"
-     fit-margin-top="5" />
+     fit-margin-top="0" />
   <g
      id="layer1"
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     transform="translate(77.318709,83.414166)">
+     transform="translate(72.318709,78.569378)">
     <g
        id="g3930"
-       transform="translate(4.0445441,0.92239667)">
+       transform="translate(9.0890881,0.84479267)">
       <path
          inkscape:original-d="m -0.51897231,92.754041 c -0.74399999,-6.8439 1.74704001,-17.01685 -0.71428999,-24.77919 -5.34631,-16.86074 -24.1489997,-24.18095 -25.7142797,-43.92675 -3.2369,-40.832957 62.2736,-24.64174658 78.21428,-7.884277 2.81966,2.96412 -5.91206,15.433517 -7.14286,18.021227 -11.68112,24.55928 -17.5,22.17928 -17.5,52.18647"
          inkscape:connector-curvature="0"
@@ -128,7 +128,7 @@
             <dc:title>Openclipart</dc:title>
           </cc:Agent>
         </dc:publisher>
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
       <cc:License
          rdf:about="http://creativecommons.org/publicdomain/zero/1.0/">
